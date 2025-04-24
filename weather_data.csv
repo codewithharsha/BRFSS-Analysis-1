@@ -1,0 +1,417 @@
+State,Date,Temperature (C),Wind Speed (km/h),Humidity (%),Weather Type
+Alabama,2025-04-15,6,31,87,Patchy rain possible
+Alabama,2025-04-16,1,29,79,Light freezing rain
+Alabama,2025-04-17,4,14,62,Sunny
+Alabama,2025-04-18,13,17,65,Moderate rain at times
+Alabama,2025-04-19,16,27,82,Moderate or heavy rain shower
+Alabama,2025-04-20,6,12,68,Partly cloudy
+Alabama,2025-04-21,11,22,63,Light rain shower
+Alabama,2025-04-22,8,25,78,Overcast
+Alaska,2025-04-15,29,22,49,Sunny
+Alaska,2025-04-16,29,32,46,Sunny
+Alaska,2025-04-17,29,11,53,Sunny
+Alaska,2025-04-18,29,7,59,Overcast
+Alaska,2025-04-19,28,8,59,Partly cloudy
+Alaska,2025-04-20,27,8,62,Sunny
+Alaska,2025-04-21,26,7,60,Sunny
+Alaska,2025-04-22,28,8,66,Patchy rain possible
+Arizona,2025-04-15,24,6,82,Patchy rain possible
+Arizona,2025-04-16,23,7,87,Moderate or heavy rain shower
+Arizona,2025-04-17,25,10,84,Heavy rain at times
+Arizona,2025-04-18,25,10,77,Patchy rain possible
+Arizona,2025-04-19,25,8,78,Moderate rain at times
+Arizona,2025-04-20,25,8,82,Patchy rain possible
+Arizona,2025-04-21,26,9,81,Patchy rain possible
+Arizona,2025-04-22,26,8,84,Light rain shower
+Arkansas,2025-04-15,13,10,49,Sunny
+Arkansas,2025-04-16,17,27,55,Overcast
+Arkansas,2025-04-17,23,34,74,Cloudy
+Arkansas,2025-04-18,19,24,75,Overcast
+Arkansas,2025-04-19,8,21,93,Moderate or heavy rain shower
+Arkansas,2025-04-20,11,20,91,Moderate or heavy rain shower
+Arkansas,2025-04-21,13,15,76,Mist
+Arkansas,2025-04-22,19,24,67,Sunny
+California,2025-04-15,19,13,41,Partly cloudy
+California,2025-04-16,16,25,51,Overcast
+California,2025-04-17,12,25,72,Patchy rain possible
+California,2025-04-18,13,18,66,Sunny
+California,2025-04-19,14,10,25,Sunny
+California,2025-04-20,17,11,41,Sunny
+California,2025-04-21,17,12,47,Partly cloudy
+California,2025-04-22,18,16,41,Sunny
+Colorado,2025-04-15,9,10,56,Overcast
+Colorado,2025-04-16,14,9,43,Overcast
+Colorado,2025-04-17,12,17,22,Sunny
+Colorado,2025-04-18,-1,12,81,Patchy moderate snow
+Colorado,2025-04-19,-3,9,84,Light freezing rain
+Colorado,2025-04-20,4,7,51,Partly cloudy
+Colorado,2025-04-21,11,14,36,Sunny
+Colorado,2025-04-22,12,10,36,Overcast
+Connecticut,2025-04-15,12,19,82,Overcast
+Connecticut,2025-04-16,6,27,60,Patchy rain possible
+Connecticut,2025-04-17,8,20,55,Sunny
+Connecticut,2025-04-18,11,14,58,Overcast
+Connecticut,2025-04-19,18,22,80,Overcast
+Connecticut,2025-04-20,14,18,54,Overcast
+Connecticut,2025-04-21,10,12,55,Overcast
+Connecticut,2025-04-22,15,14,74,Moderate rain
+Delaware,2025-04-15,8,29,68,Moderate rain at times
+Delaware,2025-04-16,6,18,63,Sunny
+Delaware,2025-04-17,9,11,62,Partly cloudy
+Delaware,2025-04-18,17,28,66,Overcast
+Delaware,2025-04-19,18,21,83,Moderate or heavy rain shower
+Delaware,2025-04-20,13,16,75,Overcast
+Delaware,2025-04-21,17,27,78,Light rain shower
+Delaware,2025-04-22,13,11,66,Mist
+District of Columbia,2025-04-15,15,19,68,Moderate rain at times
+District of Columbia,2025-04-16,9,21,57,Partly cloudy
+District of Columbia,2025-04-17,11,10,51,Sunny
+District of Columbia,2025-04-18,16,17,53,Cloudy
+District of Columbia,2025-04-19,22,18,61,Overcast
+District of Columbia,2025-04-20,19,11,58,Overcast
+District of Columbia,2025-04-21,15,11,64,Overcast
+District of Columbia,2025-04-22,19,12,66,Mist
+Florida,2025-04-15,23,8,75,Patchy rain possible
+Florida,2025-04-16,23,7,79,Patchy rain possible
+Florida,2025-04-17,22,7,80,Moderate or heavy rain shower
+Florida,2025-04-18,22,7,81,Moderate or heavy rain shower
+Florida,2025-04-19,22,6,83,Moderate or heavy rain shower
+Florida,2025-04-20,20,4,90,Moderate rain at times
+Florida,2025-04-21,20,4,89,Light rain shower
+Florida,2025-04-22,17,4,87,Light rain shower
+Georgia,2025-04-15,7,5,90,Moderate or heavy rain shower
+Georgia,2025-04-16,7,26,82,Moderate or heavy rain shower
+Georgia,2025-04-17,11,12,68,Partly cloudy
+Georgia,2025-04-18,12,9,62,Overcast
+Georgia,2025-04-19,12,10,51,Partly cloudy
+Georgia,2025-04-20,11,7,63,Patchy rain possible
+Georgia,2025-04-21,14,5,70,Patchy light rain with thunder
+Georgia,2025-04-22,17,6,69,Patchy light rain with thunder
+Hawaii,2025-04-15,14,10,73,Overcast
+Hawaii,2025-04-16,15,11,71,Patchy rain possible
+Hawaii,2025-04-17,14,11,80,Overcast
+Hawaii,2025-04-18,14,10,76,Cloudy
+Hawaii,2025-04-19,16,8,68,Overcast
+Hawaii,2025-04-20,16,9,74,Cloudy
+Hawaii,2025-04-21,15,10,78,Mist
+Hawaii,2025-04-22,14,11,79,Overcast
+Idaho,2025-04-15,9,8,56,Cloudy
+Idaho,2025-04-16,12,19,54,Partly cloudy
+Idaho,2025-04-17,5,25,69,Moderate or heavy rain shower
+Idaho,2025-04-18,3,21,40,Partly cloudy
+Idaho,2025-04-19,6,15,43,Sunny
+Idaho,2025-04-20,9,22,60,Patchy rain possible
+Idaho,2025-04-21,7,34,59,Partly cloudy
+Idaho,2025-04-22,6,18,53,Partly cloudy
+Illinois,2025-04-15,9,27,54,Patchy rain possible
+Illinois,2025-04-16,9,11,59,Sunny
+Illinois,2025-04-17,15,25,69,Overcast
+Illinois,2025-04-18,18,23,92,Patchy rain possible
+Illinois,2025-04-19,11,11,72,Overcast
+Illinois,2025-04-20,11,22,84,Moderate or heavy rain shower
+Illinois,2025-04-21,12,23,78,Overcast
+Illinois,2025-04-22,16,18,68,Cloudy
+Indiana,2025-04-15,8,22,64,Patchy rain possible
+Indiana,2025-04-16,8,10,65,Sunny
+Indiana,2025-04-17,13,15,64,Moderate rain at times
+Indiana,2025-04-18,19,24,78,Overcast
+Indiana,2025-04-19,17,14,96,Moderate or heavy rain shower
+Indiana,2025-04-20,15,16,87,Patchy rain possible
+Indiana,2025-04-21,17,22,81,Heavy rain at times
+Indiana,2025-04-22,14,7,73,Fog
+Iowa,2025-04-15,9,26,51,Cloudy
+Iowa,2025-04-16,10,13,54,Heavy rain at times
+Iowa,2025-04-17,16,23,66,Moderate or heavy rain shower
+Iowa,2025-04-18,17,19,94,Patchy rain possible
+Iowa,2025-04-19,10,14,67,Overcast
+Iowa,2025-04-20,10,22,83,Moderate or heavy rain shower
+Iowa,2025-04-21,12,22,76,Overcast
+Iowa,2025-04-22,15,18,79,Thundery outbreaks possible
+Kansas,2025-04-15,12,12,38,Sunny
+Kansas,2025-04-16,16,19,48,Overcast
+Kansas,2025-04-17,21,26,70,Patchy rain possible
+Kansas,2025-04-18,18,17,83,Patchy rain possible
+Kansas,2025-04-19,9,14,84,Moderate or heavy rain shower
+Kansas,2025-04-20,11,18,91,Moderate or heavy rain shower
+Kansas,2025-04-21,15,15,70,Cloudy
+Kansas,2025-04-22,19,19,66,Cloudy
+Louisiana,2025-04-15,10,23,51,Sunny
+Louisiana,2025-04-16,12,11,60,Patchy rain possible
+Louisiana,2025-04-17,17,25,68,Patchy rain possible
+Louisiana,2025-04-18,20,20,89,Moderate or heavy rain shower
+Louisiana,2025-04-19,11,11,95,Moderate or heavy rain shower
+Louisiana,2025-04-20,15,21,95,Moderate or heavy rain shower
+Louisiana,2025-04-21,15,21,73,Overcast
+Louisiana,2025-04-22,17,14,69,Partly cloudy
+Maine,2025-04-15,32,17,10,Sunny
+Maine,2025-04-16,34,15,10,Sunny
+Maine,2025-04-17,34,13,10,Sunny
+Maine,2025-04-18,33,18,7,Sunny
+Maine,2025-04-19,33,18,7,Sunny
+Maine,2025-04-20,33,16,7,Sunny
+Maine,2025-04-21,34,17,7,Sunny
+Maine,2025-04-22,34,15,6,Sunny
+Maryland,2025-04-15,11,21,53,Sunny
+Maryland,2025-04-16,12,9,58,Overcast
+Maryland,2025-04-17,17,22,63,Moderate or heavy rain shower
+Maryland,2025-04-18,21,20,81,Patchy rain possible
+Maryland,2025-04-19,13,9,92,Moderate or heavy rain shower
+Maryland,2025-04-20,17,18,89,Heavy rain at times
+Maryland,2025-04-21,16,17,79,Overcast
+Maryland,2025-04-22,17,13,76,Fog
+Massachusetts,2025-04-15,11,14,78,Moderate or heavy rain shower
+Massachusetts,2025-04-16,4,24,66,Patchy rain possible
+Massachusetts,2025-04-17,7,18,58,Sunny
+Massachusetts,2025-04-18,10,14,42,Overcast
+Massachusetts,2025-04-19,17,21,73,Overcast
+Massachusetts,2025-04-20,11,20,48,Sunny
+Massachusetts,2025-04-21,10,10,36,Partly cloudy
+Massachusetts,2025-04-22,13,14,71,Light rain
+Michigan,2025-04-15,6,27,75,Moderate rain at times
+Michigan,2025-04-16,5,15,68,Partly cloudy
+Michigan,2025-04-17,11,24,58,Overcast
+Michigan,2025-04-18,19,31,86,Patchy rain possible
+Michigan,2025-04-19,10,12,91,Patchy rain possible
+Michigan,2025-04-20,9,23,74,Patchy rain possible
+Michigan,2025-04-21,11,34,85,Moderate or heavy rain with thunder
+Michigan,2025-04-22,12,10,70,Sunny
+Minnesota,2025-04-15,6,24,64,Overcast
+Minnesota,2025-04-16,6,10,56,Overcast
+Minnesota,2025-04-17,11,19,80,Moderate or heavy rain shower
+Minnesota,2025-04-18,11,14,89,Heavy rain at times
+Minnesota,2025-04-19,6,12,74,Overcast
+Minnesota,2025-04-20,6,16,70,Moderate or heavy rain shower
+Minnesota,2025-04-21,6,19,88,Moderate rain
+Minnesota,2025-04-22,11,12,87,Thundery outbreaks possible
+Mississippi,2025-04-15,18,15,58,Cloudy
+Mississippi,2025-04-16,15,5,52,Sunny
+Mississippi,2025-04-17,18,14,61,Partly cloudy
+Mississippi,2025-04-18,21,17,78,Overcast
+Mississippi,2025-04-19,23,15,76,Overcast
+Mississippi,2025-04-20,22,16,74,Overcast
+Mississippi,2025-04-21,21,13,85,Thundery outbreaks possible
+Mississippi,2025-04-22,21,6,91,Moderate or heavy rain shower
+Missouri,2025-04-15,22,10,74,Overcast
+Missouri,2025-04-16,22,14,63,Overcast
+Missouri,2025-04-17,23,19,84,Overcast
+Missouri,2025-04-18,24,22,89,Patchy rain possible
+Missouri,2025-04-19,24,22,89,Moderate rain at times
+Missouri,2025-04-20,24,19,84,Moderate rain at times
+Missouri,2025-04-21,24,10,86,Moderate or heavy rain shower
+Missouri,2025-04-22,24,15,81,Mist
+Montana,2025-04-15,10,3,90,Moderate rain at times
+Montana,2025-04-16,14,5,79,Overcast
+Montana,2025-04-17,16,6,78,Partly cloudy
+Montana,2025-04-18,14,5,82,Moderate rain at times
+Montana,2025-04-19,13,6,78,Moderate or heavy rain shower
+Montana,2025-04-20,15,5,68,Cloudy
+Montana,2025-04-21,16,5,64,Patchy light rain with thunder
+Montana,2025-04-22,17,6,68,Patchy rain possible
+Nebraska,2025-04-15,11,14,37,Sunny
+Nebraska,2025-04-16,15,22,49,Overcast
+Nebraska,2025-04-17,20,21,74,Overcast
+Nebraska,2025-04-18,11,22,86,Overcast
+Nebraska,2025-04-19,8,13,59,Overcast
+Nebraska,2025-04-20,8,20,78,Moderate or heavy rain shower
+Nebraska,2025-04-21,13,14,71,Fog
+Nebraska,2025-04-22,19,14,66,Overcast
+Nevada,2025-04-15,9,23,50,Sunny
+Nevada,2025-04-16,11,20,52,Overcast
+Nevada,2025-04-17,16,21,82,Overcast
+Nevada,2025-04-18,12,16,89,Moderate rain at times
+Nevada,2025-04-19,8,14,64,Overcast
+Nevada,2025-04-20,7,21,80,Moderate or heavy rain shower
+Nevada,2025-04-21,11,19,73,Light rain shower
+Nevada,2025-04-22,14,16,90,Moderate or heavy rain with thunder
+New Hampshire,2025-04-15,7,28,71,Moderate rain at times
+New Hampshire,2025-04-16,6,17,63,Sunny
+New Hampshire,2025-04-17,10,14,62,Overcast
+New Hampshire,2025-04-18,18,32,72,Overcast
+New Hampshire,2025-04-19,17,21,92,Moderate or heavy rain shower
+New Hampshire,2025-04-20,12,18,77,Overcast
+New Hampshire,2025-04-21,16,31,83,Heavy rain
+New Hampshire,2025-04-22,13,11,66,Partly cloudy
+New Jersey,2025-04-15,12,17,84,Overcast
+New Jersey,2025-04-16,7,23,62,Overcast
+New Jersey,2025-04-17,9,15,55,Sunny
+New Jersey,2025-04-18,12,12,64,Overcast
+New Jersey,2025-04-19,19,19,75,Overcast
+New Jersey,2025-04-20,15,19,53,Overcast
+New Jersey,2025-04-21,11,14,56,Overcast
+New Jersey,2025-04-22,16,15,72,Mist
+New Mexico,2025-04-15,17,11,70,Patchy rain possible
+New Mexico,2025-04-16,15,9,68,Sunny
+New Mexico,2025-04-17,16,10,73,Overcast
+New Mexico,2025-04-18,16,5,64,Sunny
+New Mexico,2025-04-19,17,5,52,Partly cloudy
+New Mexico,2025-04-20,18,8,52,Sunny
+New Mexico,2025-04-21,17,10,66,Patchy light rain with thunder
+New Mexico,2025-04-22,14,8,70,Light drizzle
+New York,2025-04-15,12,17,84,Overcast
+New York,2025-04-16,7,23,62,Overcast
+New York,2025-04-17,9,15,55,Sunny
+New York,2025-04-18,12,12,65,Overcast
+New York,2025-04-19,19,19,75,Overcast
+New York,2025-04-20,15,19,53,Overcast
+New York,2025-04-21,11,15,55,Overcast
+New York,2025-04-22,16,15,72,Fog
+North Carolina,2025-04-15,17,20,54,Overcast
+North Carolina,2025-04-16,12,17,51,Sunny
+North Carolina,2025-04-17,13,6,47,Sunny
+North Carolina,2025-04-18,18,17,60,Sunny
+North Carolina,2025-04-19,22,19,72,Cloudy
+North Carolina,2025-04-20,23,9,71,Overcast
+North Carolina,2025-04-21,22,14,71,Overcast
+North Carolina,2025-04-22,22,7,67,Cloudy
+North Dakota,2025-04-15,6,25,63,Overcast
+North Dakota,2025-04-16,6,8,56,Overcast
+North Dakota,2025-04-17,11,19,76,Moderate rain at times
+North Dakota,2025-04-18,11,13,89,Moderate rain at times
+North Dakota,2025-04-19,6,12,73,Overcast
+North Dakota,2025-04-20,6,16,71,Moderate or heavy rain shower
+North Dakota,2025-04-21,6,19,88,Moderate rain
+North Dakota,2025-04-22,12,11,87,Thundery outbreaks possible
+Ohio,2025-04-15,9,29,57,Overcast
+Ohio,2025-04-16,8,9,58,Cloudy
+Ohio,2025-04-17,14,25,67,Moderate rain at times
+Ohio,2025-04-18,19,24,95,Moderate or heavy rain shower
+Ohio,2025-04-19,11,12,74,Overcast
+Ohio,2025-04-20,10,23,82,Moderate or heavy rain shower
+Ohio,2025-04-21,11,26,82,Moderate or heavy rain shower
+Ohio,2025-04-22,15,18,68,Mist
+Oklahoma,2025-04-15,14,9,45,Sunny
+Oklahoma,2025-04-16,19,23,55,Overcast
+Oklahoma,2025-04-17,23,30,73,Sunny
+Oklahoma,2025-04-18,21,23,77,Patchy rain possible
+Oklahoma,2025-04-19,11,14,93,Moderate or heavy rain shower
+Oklahoma,2025-04-20,13,20,88,Moderate or heavy rain shower
+Oklahoma,2025-04-21,16,13,72,Fog
+Oklahoma,2025-04-22,21,24,66,Sunny
+Oregon,2025-04-15,14,6,63,Sunny
+Oregon,2025-04-16,11,5,82,Overcast
+Oregon,2025-04-17,12,8,53,Sunny
+Oregon,2025-04-18,14,3,46,Sunny
+Oregon,2025-04-19,11,7,72,Moderate rain at times
+Oregon,2025-04-20,8,6,82,Heavy rain at times
+Oregon,2025-04-21,8,5,74,Overcast
+Oregon,2025-04-22,9,4,68,Partly cloudy
+Rhode Island,2025-04-15,10,16,81,Patchy rain possible
+Rhode Island,2025-04-16,6,24,56,Overcast
+Rhode Island,2025-04-17,8,18,55,Sunny
+Rhode Island,2025-04-18,10,15,42,Cloudy
+Rhode Island,2025-04-19,15,23,76,Cloudy
+Rhode Island,2025-04-20,14,20,48,Partly cloudy
+Rhode Island,2025-04-21,10,11,37,Cloudy
+Rhode Island,2025-04-22,13,15,76,Moderate or heavy rain shower
+South Carolina,2025-04-15,19,11,40,Patchy rain possible
+South Carolina,2025-04-16,16,11,78,Moderate or heavy rain shower
+South Carolina,2025-04-17,16,10,66,Moderate or heavy rain shower
+South Carolina,2025-04-18,15,11,74,Overcast
+South Carolina,2025-04-19,16,8,65,Patchy rain possible
+South Carolina,2025-04-20,17,7,45,Sunny
+South Carolina,2025-04-21,18,8,43,Sunny
+South Carolina,2025-04-22,19,14,46,Patchy rain possible
+South Dakota,2025-04-15,7,13,58,Sunny
+South Dakota,2025-04-16,10,19,51,Overcast
+South Dakota,2025-04-17,11,18,70,Moderate rain at times
+South Dakota,2025-04-18,5,22,79,Patchy rain possible
+South Dakota,2025-04-19,5,8,57,Partly cloudy
+South Dakota,2025-04-20,8,15,51,Overcast
+South Dakota,2025-04-21,11,8,48,Sunny
+South Dakota,2025-04-22,15,22,60,Mist
+Tennessee,2025-04-15,10,26,51,Sunny
+Tennessee,2025-04-16,10,11,57,Patchy rain possible
+Tennessee,2025-04-17,16,25,68,Patchy rain possible
+Tennessee,2025-04-18,19,21,92,Moderate or heavy rain shower
+Tennessee,2025-04-19,11,12,91,Moderate or heavy rain shower
+Tennessee,2025-04-20,13,23,91,Moderate or heavy rain shower
+Tennessee,2025-04-21,14,22,73,Overcast
+Tennessee,2025-04-22,17,17,66,Sunny
+Texas,2025-04-15,21,12,81,Overcast
+Texas,2025-04-16,21,18,64,Patchy rain possible
+Texas,2025-04-17,22,27,89,Patchy rain possible
+Texas,2025-04-18,23,29,93,Patchy rain possible
+Texas,2025-04-19,23,30,94,Moderate rain at times
+Texas,2025-04-20,23,27,91,Moderate or heavy rain shower
+Texas,2025-04-21,23,17,93,Thundery outbreaks possible
+Texas,2025-04-22,23,20,93,Fog
+Utah,2025-04-15,11,8,31,Patchy rain possible
+Utah,2025-04-16,10,9,47,Overcast
+Utah,2025-04-17,11,8,36,Patchy rain possible
+Utah,2025-04-18,9,19,26,Patchy rain possible
+Utah,2025-04-19,5,12,32,Sunny
+Utah,2025-04-20,3,10,37,Patchy rain possible
+Utah,2025-04-21,5,10,26,Sunny
+Utah,2025-04-22,7,13,23,Sunny
+Vermont,2025-04-15,10,25,49,Sunny
+Vermont,2025-04-16,11,10,57,Patchy rain possible
+Vermont,2025-04-17,16,26,67,Moderate or heavy rain shower
+Vermont,2025-04-18,19,20,93,Moderate or heavy rain shower
+Vermont,2025-04-19,11,11,93,Moderate or heavy rain shower
+Vermont,2025-04-20,14,21,93,Moderate or heavy rain shower
+Vermont,2025-04-21,15,22,71,Overcast
+Vermont,2025-04-22,17,16,67,Sunny
+Virginia,2025-04-15,19,22,55,Overcast
+Virginia,2025-04-16,13,20,48,Cloudy
+Virginia,2025-04-17,13,13,46,Sunny
+Virginia,2025-04-18,17,19,67,Cloudy
+Virginia,2025-04-19,22,24,65,Sunny
+Virginia,2025-04-20,19,17,74,Overcast
+Virginia,2025-04-21,15,19,83,Overcast
+Virginia,2025-04-22,20,14,76,Cloudy
+Washington,2025-04-15,15,18,67,Heavy rain at times
+Washington,2025-04-16,10,20,56,Sunny
+Washington,2025-04-17,11,10,50,Sunny
+Washington,2025-04-18,17,17,53,Cloudy
+Washington,2025-04-19,23,18,61,Overcast
+Washington,2025-04-20,21,11,58,Overcast
+Washington,2025-04-21,15,11,64,Overcast
+Washington,2025-04-22,20,11,63,Overcast
+West Virginia,2025-04-15,9,26,73,Moderate rain at times
+West Virginia,2025-04-16,5,26,64,Cloudy
+West Virginia,2025-04-17,9,7,47,Sunny
+West Virginia,2025-04-18,16,9,50,Partly cloudy
+West Virginia,2025-04-19,22,21,53,Overcast
+West Virginia,2025-04-20,17,7,75,Cloudy
+West Virginia,2025-04-21,14,10,79,Moderate or heavy rain shower
+West Virginia,2025-04-22,15,17,64,Partly cloudy
+Wisconsin,2025-04-15,4,26,63,Overcast
+Wisconsin,2025-04-16,5,7,48,Partly cloudy
+Wisconsin,2025-04-17,10,21,61,Overcast
+Wisconsin,2025-04-18,12,13,94,Heavy rain at times
+Wisconsin,2025-04-19,6,14,70,Overcast
+Wisconsin,2025-04-20,6,21,64,Moderate or heavy rain shower
+Wisconsin,2025-04-21,6,24,88,Light rain shower
+Wisconsin,2025-04-22,9,13,88,Moderate or heavy rain with thunder
+Wyoming,2025-04-15,5,29,69,Patchy rain possible
+Wyoming,2025-04-16,4,16,63,Sunny
+Wyoming,2025-04-17,8,17,62,Overcast
+Wyoming,2025-04-18,15,22,83,Moderate or heavy rain shower
+Wyoming,2025-04-19,10,14,80,Overcast
+Wyoming,2025-04-20,8,19,61,Overcast
+Wyoming,2025-04-21,9,32,80,Light rain
+Wyoming,2025-04-22,10,13,69,Overcast
+Guam,2025-04-15,28,12,44,Overcast
+Guam,2025-04-16,27,9,43,Cloudy
+Guam,2025-04-17,26,9,53,Partly cloudy
+Guam,2025-04-18,25,6,43,Overcast
+Guam,2025-04-19,25,9,34,Partly cloudy
+Guam,2025-04-20,25,8,38,Overcast
+Guam,2025-04-21,25,7,37,Sunny
+Guam,2025-04-22,25,7,38,Sunny
+Puerto Rico,2025-04-15,21,4,83,Moderate or heavy rain shower
+Puerto Rico,2025-04-16,22,3,75,Patchy rain possible
+Puerto Rico,2025-04-17,23,3,70,Patchy rain possible
+Puerto Rico,2025-04-18,21,4,95,Heavy rain at times
+Puerto Rico,2025-04-19,21,3,94,Moderate or heavy rain shower
+Puerto Rico,2025-04-20,21,5,67,Overcast
+Puerto Rico,2025-04-21,20,4,55,Overcast
+Puerto Rico,2025-04-22,20,2,56,Sunny
+Virgin Islands,2025-04-15,25,29,93,Patchy rain possible
+Virgin Islands,2025-04-16,25,30,87,Cloudy
+Virgin Islands,2025-04-17,26,22,82,Patchy rain possible
+Virgin Islands,2025-04-18,26,15,83,Moderate or heavy rain shower
+Virgin Islands,2025-04-19,25,23,82,Moderate or heavy rain shower
+Virgin Islands,2025-04-20,25,23,81,Patchy rain possible
+Virgin Islands,2025-04-21,24,24,75,Overcast
+Virgin Islands,2025-04-22,25,17,74,Cloudy

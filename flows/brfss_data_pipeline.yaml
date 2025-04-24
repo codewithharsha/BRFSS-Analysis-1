@@ -1,0 +1,169 @@
+id: brfss.data.etl.pipleine
+namespace: drfss.data.etl.project
+
+tasks:
+  # Weather data extraction task
+  - id: extract_weather_data
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas requests
+    commands:
+      - python weateher_data.py
+
+  - id: load_weather_data
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas psycopg2 sqlalchemy
+    commands:
+      - python load_weateher.py
+
+  # chunk 1 tasks
+  - id: extract_chunk_1
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+      - python extract1.py
+    outputFiles:
+      - data01.csv
+
+
+  - id: transform_chunk_1
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+    - python transform.py {{ outputs.extract_chunk_1.outputFiles['data01.csv'] }}
+    outputFiles:
+      - processed.csv
+
+
+  - id: load_chunk_1
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas psycopg2 sqlalchemy
+    commands:
+    - python load.py {{ outputs.transform_chunk_1.outputFiles['processed.csv'] }}
+
+  # chunk 2 tasks
+  - id: extract_chunk_2
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+      - python extract2.py
+    outputFiles:
+      - data02.csv
+
+
+  - id: transform_chunk_2
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+    - python transform.py {{ outputs.extract_chunk_2.outputFiles['data02.csv'] }}
+    outputFiles:
+      - processed.csv
+
+
+  - id: load_chunk_2
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas psycopg2 sqlalchemy
+    commands:
+    - python load.py {{ outputs.transform_chunk_2.outputFiles['processed.csv'] }}
+
+  # Chunk 3 tasks
+  - id: extract_chunk_3
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+      - python extract3.py
+    outputFiles:
+      - data03.csv
+
+
+  - id: transform_chunk_3
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas
+    commands:
+    - python transform.py {{ outputs.extract_chunk_3.outputFiles['data03.csv'] }}
+    outputFiles:
+      - processed.csv
+
+
+  - id: load_chunk_3
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: python:3.10
+    namespaceFiles:
+      enabled: true
+    beforeCommands:
+      - pip install pandas psycopg2 sqlalchemy
+    commands:
+    - python load.py {{ outputs.transform_chunk_3.outputFiles['processed.csv'] }}
+  - id: verification_step
+    type: io.kestra.plugin.jdbc.postgresql.Query
+    url: jdbc:postgresql://host.docker.internal:5432/BRFSS_Data
+    username: postgres
+    password: 2002
+    sql: |
+      SELECT COUNT(*) AS total_rows FROM "brfss_data";
+    fetchType: FETCH
+  - id: print_verification_data
+    type: io.kestra.plugin.core.debug.Return
+    format: "{{ outputs.verification_step.rows[0].total_rows }}"
+   
